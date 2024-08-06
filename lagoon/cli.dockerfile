@@ -1,4 +1,4 @@
-FROM bomoko/drupalbase-cli
+FROM ghcr.io/lagoon-examples/drupal-base-image/cli
 
 COPY modules /app/web/modules/custom
 COPY themes /app/web/themes/custom
